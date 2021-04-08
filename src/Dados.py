@@ -1,4 +1,4 @@
-#Classe responsavel pelo tratamente e leitura dos dados
+#Classe responsável pela leitura e conversão dos dados
 
 class Dados:
 
