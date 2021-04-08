@@ -10,11 +10,11 @@ class Dados:
 
         arquivo = open(self.caminhoDoArquivo, 'r')
         self.elementos = arquivo.readlines()
-        
-        for i in range(len(self.elementos)):
-            # Convertendo as strings para integer antes de aplicar o algoritmo
-            self.elementos[i] = int(self.elementos[i])
 
+        # Convertendo os elementos para inteiro
+        for i in range(len(self.elementos)):
+            self.elementos[i] = int(self.elementos[i])
+        
         arquivo.close()
         return self.elementos
        
