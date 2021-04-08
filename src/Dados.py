@@ -1,6 +1,7 @@
 #Classe responsavel pelo tratamente e leitura dos dados
 
 class Dados:
+
     def __init__(self):
         self.elementos = []
 
@@ -15,6 +16,7 @@ class Dados:
             self.elementos[i] = int(self.elementos[i])
 
         arquivo.close()
+        return self.elementos
        
 
 

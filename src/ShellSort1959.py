@@ -1,36 +1,32 @@
-#Codigo modificado do geeksforgeeks
-#Disponivel em: https://www.geeksforgeeks.org/python-program-for-shellsort/
+# Disponível em: https://github.com/TheAlgorithms/Python/blob/master/sorts/shell_sort.py
 
 class ShellSort1959:
     
-    def __init__(self, elementosOrdenados):
-       self.elementosOrdenados = elementosOrdenados
+    def __init__(self, collection):
+       self.collection = collection
 
     def executar(self):
-        # Start with a big gap, then reduce the gap
-        n = int(len(self.elementosOrdenados))
-
-        gap = int(n/2)
-        # Do a gapped insertion sort for this gap size.
-        # The first gap elements a[0..gap-1] are already in gapped 
-        # order keep adding one more element until the entire self.elementosOrdenadosay
-        # is gap sorted
-        while gap > 0:
-            
-            for i in range(gap,n):
-    
-                # add a[i] to the elements that have been gap sorted
-                # save a[i] in temp and make a hole at position i
-                temp = self.elementosOrdenados[i]
-    
-                # shift earlier gap-sorted elements up until the correct
-                # location for a[i] is found
+        """Pure implementation of shell sort algorithm in Python
+        :param collection:  Some mutable ordered collection with heterogeneous
+        comparable items inside
+        :return:  the same collection ordered by ascending
+        >>> shell_sort([0, 5, 3, 2, 2])
+        [0, 2, 2, 3, 5]
+        >>> shell_sort([])
+        []
+        >>> shell_sort([-2, -5, -45])
+        [-45, -5, -2]
+        """
+        # Marcin Ciura's gap sequence
+        # Verificar a questao dos gaps (h)
+        gaps = [701, 301, 132, 57, 23, 10, 4, 1]
+        for gap in gaps:
+            for i in range(gap, len(self.collection)):
+                insert_value = self.collection[i]
                 j = i
-                while  j >= gap and self.elementosOrdenados[j-gap] >temp:
-                    self.elementosOrdenados[j] = self.elementosOrdenados[j-gap]
+                while j >= gap and self.collection[j - gap] > insert_value:
+                    self.collection[j] = self.collection[j - gap]
                     j -= gap
-    
-                # put temp (the original a[i]) in its correct location
-                self.elementosOrdenados[j] = temp
-            gap /= 2
-            gap = int(gap)
+                if j != i:
+                    self.collection[j] = insert_value
+        return self.collection
