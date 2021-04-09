@@ -1,14 +1,17 @@
 # -*- coding: utf-8 -*-
 # Disponível em: https://github.com/TheAlgorithms/Python/blob/master/sorts/shell_sort.py
-import math
-class ShellSort1959:
+
+class ShellSort1973:
     
     def __init__(self, collection):
        self.collection = collection
 
     def executar(self):
         n = len(self.collection)
-        h = (n / 2)
+        h = 1 # s = 1
+        # while h < n
+        while h < n / 3:
+            h = h * 3 + 1 # h(s) = 3h(s - 1) + 1
         
         while h > 0:
                 for i in range(h, n):
@@ -19,7 +22,7 @@ class ShellSort1959:
                         j = j - h
                         
                         self.collection[j] = c
-                print(n)
-                h = int(h / 2)
+                print(h)
+                h = int(h / 3)
                 
         return self.collection

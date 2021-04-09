@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #Classe responsável pela leitura e conversão dos dados
 
 class Dados:
