@@ -9,9 +9,11 @@ class ShellSort1959:
 
     def executar(self):
         n = len(self.collection)
-        #come a calcular o tempo
+
+        #Calcula o tempo
         inicio = time.time()
         h = n // 2
+        k = 1
         
         while h > 0:
                 for i in range(h, n):
@@ -22,9 +24,12 @@ class ShellSort1959:
                         j = j - h
                         
                         self.collection[j] = c
-                h = h // 2
+                
+                k = k + 1
+                h = n // pow(2, k)
+                
         fim = time.time()
-        #printa o tempo de execucao  
-        print('tempo de execucao: ')
+          
+        print('Tempo de execucao: ')
         print(fim - inicio)       
         return self.collection

@@ -91,28 +91,85 @@ caminhoDosArquivos = [
     "base-de-dados/parcialmente-ordenados/po2000000.txt",
 ]
 
+# for i in range(19):
+
+#     a100 = Dados()
+#     print(caminhoDosArquivos[i])
+#     elementos = a100.carregarBase(caminhoDosArquivos[i])
+
+#     shellSort1959 = ShellSort1959(elementos)
+#     shellSort1959.executar()
+
+#     shellSort1959 = ShellSort1959(elementos)
+#     shellSort1959.executar()
+
+#     shellSort1959 = ShellSort1959(elementos)
+#     shellSort1959.executar()
+
+#     shellSort1959 = ShellSort1959(elementos)
+#     shellSort1959.executar()
+
+#     shellSort1959 = ShellSort1959(elementos)
+#     shellSort1959.executar()
+
+#     shellSort1959 = ShellSort1959(elementos)
+#     shellSort1959.executar()
 
 
-for i in range(79):
-
-    a100 = Dados()
-    print(caminhoDosArquivos[i])
-    elementos = a100.carregarBase(caminhoDosArquivos[i])
-
-    shellSort1959 = ShellSort1959(elementos)
-    shellSort1959.executar()
-
-    shellSort1973 = ShellSort1973(elementos)
-    shellSort1973.executar()
 
 
+    # shellSort1973 = ShellSort1973(elementos)
+    # shellSort1973.executar()
+
+
+a100 = Dados()
+print('base-de-dados/aleatorios/a100.txt')
+
+elementos = a100.carregarBase('base-de-dados/aleatorios/a2000000.txt')
+print("Executando a primeira vez")
+shellSort1959 = ShellSort1959(elementos)
+shellSort1959.executar()
+elementos = []
+
+elementos = a100.carregarBase('base-de-dados/aleatorios/a2000000.txt')
+print("Executando a primeira vez")
+shellSort1959 = ShellSort1959(elementos)
+shellSort1959.executar()
+elementos = []
+
+elementos = a100.carregarBase('base-de-dados/aleatorios/a2000000.txt')
+print("Executando a segunda vez")
+shellSort1959 = ShellSort1959(elementos)
+shellSort1959.executar()
+elementos = []
+
+elementos = a100.carregarBase('base-de-dados/aleatorios/a2000000.txt')
+print("Executando a terceira vez")
+shellSort1959 = ShellSort1959(elementos)
+shellSort1959.executar()
+elementos = []
+
+elementos = a100.carregarBase('base-de-dados/aleatorios/a2000000.txt')
+print("Executando a quarta vez")
+shellSort1959 = ShellSort1959(elementos)
+shellSort1959.executar()
+elementos = []
+
+elementos = a100.carregarBase('base-de-dados/aleatorios/a2000000.txt')
+print("Executando a quinta vez")
+shellSort1959 = ShellSort1959(elementos)
+shellSort1959.executar()
+elementos = []
+
+elementos = a100.carregarBase('base-de-dados/aleatorios/a2000000.txt')
+print("Executando a sexta vez")
+shellSort1959 = ShellSort1959(elementos)
+shellSort1959.executar()
+elementos = []
 
 # a100 = Dados()
-# print('base-de-dados/aleatorios/a2000000.txt')
-# elementos = a100.carregarBase('base-de-dados/aleatorios/a2000000.txt')
+# print("base-de-dados/aleatorios/a100.txt")
+# elementos = a100.carregarBase("base-de-dados/aleatorios/a100.txt")
 
 # shellSort1959 = ShellSort1959(elementos)
 # shellSort1959.executar()
-
-# shellSort1973 = ShellSort1973(elementos)
-# shellSort1973.executar()
