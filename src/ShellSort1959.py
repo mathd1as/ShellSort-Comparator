@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Disponível em: https://github.com/TheAlgorithms/Python/blob/master/sorts/shell_sort.py
 import math
+import time
 class ShellSort1959:
     
     def __init__(self, collection):
@@ -8,7 +9,9 @@ class ShellSort1959:
 
     def executar(self):
         n = len(self.collection)
-        h = (n / 2)
+        #come a calcular o tempo
+        inicio = time.time()
+        h = n // 2
         
         while h > 0:
                 for i in range(h, n):
@@ -19,7 +22,9 @@ class ShellSort1959:
                         j = j - h
                         
                         self.collection[j] = c
-                print(n)
-                h = int(h / 2)
-                
+                h = h // 2
+        fim = time.time()
+        #printa o tempo de execucao  
+        print('tempo de execucao: ')
+        print(fim - inicio)       
         return self.collection
