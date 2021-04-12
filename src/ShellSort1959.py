@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# Disponível em: https://github.com/TheAlgorithms/Python/blob/master/sorts/shell_sort.py
 import math
 import time
 class ShellSort1959:
@@ -9,22 +8,21 @@ class ShellSort1959:
 
     def executar(self):
         n = len(self.collection)
-        #come a calcular o tempo
+        # Começa contar o tempo de execução do algoritmo
         inicio = time.time()
         h = n // 2
-        
+        k = 1
         while h > 0:
-                for i in range(h, n):
-                    c = self.collection[i]
-                    j = i
-                    while j >= h and c < self.collection[j - h]:
-                        self.collection[j] = self.collection[j - h]
-                        j = j - h
-                        
-                        self.collection[j] = c
-                h = h // 2
+            for i in range(h, n):
+                c = self.collection[i]
+                j = i
+                while j >= h and c < self.collection[j - h]:
+                    self.collection[j] = self.collection[j - h]
+                    j = j - h
+                    self.collection[j] = c
+            k = k + 1
+            h = n // pow(2, k)
+        # Calcula o tempo de execução
         fim = time.time()
-        #printa o tempo de execucao  
-        print('tempo de execucao: ')
-        print(fim - inicio)       
-        return self.collection
+        tempoExecucao = (fim - inicio)  
+        return tempoExecucao

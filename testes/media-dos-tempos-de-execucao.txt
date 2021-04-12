@@ -1,0 +1,58 @@
+
+../base-de-dados/aleatorios/a100.txt
+Shellsort1959 0.000664186477661
+Shellsort1973 0.000529670715332
+
+../base-de-dados/aleatorios/a200.txt
+Shellsort1959 0.00163311958313
+Shellsort1973 0.00144882202148
+
+../base-de-dados/aleatorios/a500.txt
+Shellsort1959 0.00376896858215
+Shellsort1973 0.00156235694885
+
+../base-de-dados/aleatorios/a1000.txt
+Shellsort1959 0.00276737213135
+Shellsort1973 0.0019139289856
+
+../base-de-dados/aleatorios/a2000.txt
+Shellsort1959 0.00489921569824
+Shellsort1973 0.00455994606018
+
+../base-de-dados/aleatorios/a5000.txt
+Shellsort1959 0.0158689498901
+Shellsort1973 0.0143273830414
+
+../base-de-dados/aleatorios/a7500.txt
+Shellsort1959 0.0247018814087
+Shellsort1973 0.0236608028412
+
+../base-de-dados/aleatorios/a10000.txt
+Shellsort1959 0.0374236106873
+Shellsort1973 0.0338241577148
+
+../base-de-dados/aleatorios/a15000.txt
+Shellsort1959 0.0594303607941
+Shellsort1973 0.0567318439484
+
+../base-de-dados/aleatorios/a30000.txt
+Shellsort1959 0.144783973694
+Shellsort1973 0.138656377792
+
+../base-de-dados/aleatorios/a50000.txt
+Shellsort1959 0.322256612778
+Shellsort1973 0.271063756943
+
+../base-de-dados/aleatorios/a75000.txt
+Shellsort1959 0.552584028244
+Shellsort1973 0.488631248474
+
+../base-de-dados/aleatorios/a100000.txt
+Shellsort1959 0.882865524292
+Shellsort1973 0.703743743896
+
+../base-de-dados/aleatorios/a200000.txt
+Shellsort1959 2.05952982903
+Shellsort1973 1.91520638466
+
+../base-de-dados/aleatorios/a500000.txt

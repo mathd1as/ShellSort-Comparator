@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# Disponível em: https://github.com/TheAlgorithms/Python/blob/master/sorts/shell_sort.py
 import time
 class ShellSort1973:
     
@@ -8,7 +7,7 @@ class ShellSort1973:
 
     def executar(self):
         n = len(self.collection)
-        #come a calcular o tempo
+        # Começa contar o tempo de execução do algoritmo
         inicio = time.time()
         h = 1 # s = 1
         # while h < n
@@ -25,8 +24,7 @@ class ShellSort1973:
                         
                         self.collection[j] = c
                 h = h // 3
+        # Calcula o tempo de execução
         fim = time.time()
-        #printa o tempo de execucao
-        print('tempo de execucao')
-        print(fim - inicio)
-        return self.collection
+        tempoExecucao = (fim - inicio)
+        return tempoExecucao
