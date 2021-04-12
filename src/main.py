@@ -102,6 +102,7 @@ for i in range(79):
     dados = Dados()
     elementos = dados.carregarBase(caminhoDosArquivos[i])
     shellSort1959 = ShellSort1959(elementos)
+    # Desconsidera a primeira execução
     shellSort1959.executar()
     elementos = []
 
@@ -142,6 +143,7 @@ for i in range(79):
     dados = Dados()
     elementos = dados.carregarBase(caminhoDosArquivos[i])
     shellSort1973 = ShellSort1973(elementos)
+    # Desconsidera a primeira execução
     shellSort1973.executar()
     elementos = []
 

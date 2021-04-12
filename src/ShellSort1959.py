@@ -2,7 +2,6 @@
 import math
 import time
 
-
 class ShellSort1959:
 
     def __init__(self, collection):
@@ -11,9 +10,10 @@ class ShellSort1959:
     def executar(self):
         n = len(self.collection)
         # Começa contar o tempo de execução do algoritmo
-        inicio = time.time()
+        start = time.time()
         h = n // 2
         k = 1
+
         while h > 0:
             for i in range(h, n):
                 c = self.collection[i]
@@ -24,7 +24,9 @@ class ShellSort1959:
                     self.collection[j] = c
             k = k + 1
             h = n // pow(2, k)
+            
+        # Pega o tempo apos a execução do algoritmo 
+        end = time.time()
         # Calcula o tempo de execução
-        fim = time.time()
-        tempoExecucao = (fim - inicio)  
-        return tempoExecucao
+        executionTime = end - start
+        return executionTime
