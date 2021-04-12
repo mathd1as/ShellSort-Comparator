@@ -1,38 +1,316 @@
 
 ../base-de-dados/aleatorios/a100.txt
-Shellsort1959 0.000213575363159
-Shellsort1973 0.000228786468506
+Shellsort1959 0.000343227386475
+Shellsort1973 0.000262880325317
 
 ../base-de-dados/aleatorios/a200.txt
-Shellsort1959 0.0015079498291
-Shellsort1973 0.00174441337585
+Shellsort1959 0.000513172149658
+Shellsort1973 0.00110292434692
 
 ../base-de-dados/aleatorios/a500.txt
-Shellsort1959 0.0031867980957
-Shellsort1973 0.00115880966187
+Shellsort1959 0.00587000846863
+Shellsort1973 0.00199060440063
 
 ../base-de-dados/aleatorios/a1000.txt
-Shellsort1959 0.004900598526
-Shellsort1973 0.00499639511108
+Shellsort1959 0.00430483818054
+Shellsort1973 0.00837359428406
 
 ../base-de-dados/aleatorios/a2000.txt
-Shellsort1959 0.0113451957703
-Shellsort1973 0.0100535869598
+Shellsort1959 0.0122796058655
+Shellsort1973 0.00980925559998
 
 ../base-de-dados/aleatorios/a5000.txt
-Shellsort1959 0.0322540283203
-Shellsort1973 0.0285003662109
+Shellsort1959 0.0344175815582
+Shellsort1973 0.0296050071716
 
 ../base-de-dados/aleatorios/a7500.txt
-Shellsort1959 0.0474364280701
-Shellsort1973 0.0510273933411
+Shellsort1959 0.0429038047791
+Shellsort1973 0.0244514465332
 
 ../base-de-dados/aleatorios/a10000.txt
-Shellsort1959 0.0456027984619
-Shellsort1973 0.0350891590118
+Shellsort1959 0.0391860961914
+Shellsort1973 0.0340641498566
 
 ../base-de-dados/aleatorios/a15000.txt
-Shellsort1959 0.0595871448517
-Shellsort1973 0.060026884079
+Shellsort1959 0.0613244533539
+Shellsort1973 0.0570934295654
 
 ../base-de-dados/aleatorios/a30000.txt
+Shellsort1959 0.148714399338
+Shellsort1973 0.140048885345
+
+../base-de-dados/aleatorios/a50000.txt
+Shellsort1959 0.336787176132
+Shellsort1973 0.286301469803
+
+../base-de-dados/aleatorios/a75000.txt
+Shellsort1959 0.560769224167
+Shellsort1973 0.486088752747
+
+../base-de-dados/aleatorios/a100000.txt
+Shellsort1959 0.92520275116
+Shellsort1973 0.702691602707
+
+../base-de-dados/aleatorios/a200000.txt
+Shellsort1959 2.14996623993
+Shellsort1973 1.79921317101
+
+../base-de-dados/aleatorios/a500000.txt
+Shellsort1959 6.72285580635
+Shellsort1973 5.47042517662
+
+../base-de-dados/aleatorios/a750000.txt
+Shellsort1959 10.7985841751
+Shellsort1973 9.0103208065
+
+../base-de-dados/aleatorios/a1000000.txt
+Shellsort1959 16.0298896313
+Shellsort1973 13.1241940022
+
+../base-de-dados/aleatorios/a1250000.txt
+Shellsort1959 22.2022560596
+Shellsort1973 17.1501625538
+
+../base-de-dados/aleatorios/a1500000.txt
+Shellsort1959 25.8946225643
+Shellsort1973 21.3709177971
+
+../base-de-dados/aleatorios/a2000000.txt
+Shellsort1959 34.1167950153
+Shellsort1973 28.3066679001
+
+../base-de-dados/decrescentes/d100.txt
+Shellsort1959 0.000164175033569
+Shellsort1973 0.000104379653931
+
+../base-de-dados/decrescentes/d200.txt
+Shellsort1959 0.000328397750854
+Shellsort1973 0.000254201889038
+
+../base-de-dados/decrescentes/d500.txt
+Shellsort1959 0.000915861129761
+Shellsort1973 0.000637817382812
+
+../base-de-dados/decrescentes/d1000.txt
+Shellsort1959 0.0017285823822
+Shellsort1973 0.00119123458862
+
+../base-de-dados/decrescentes/d2000.txt
+Shellsort1959 0.00416622161865
+Shellsort1973 0.00293478965759
+
+../base-de-dados/decrescentes/d5000.txt
+Shellsort1959 0.0137278079987
+Shellsort1973 0.00860362052917
+
+../base-de-dados/decrescentes/d7500.txt
+Shellsort1959 0.0236381053925
+Shellsort1973 0.01550822258
+
+../base-de-dados/decrescentes/d10000.txt
+Shellsort1959 0.0363366127014
+Shellsort1973 0.0244789123535
+
+../base-de-dados/decrescentes/d15000.txt
+Shellsort1959 0.067976474762
+Shellsort1973 0.0414892673492
+
+../base-de-dados/decrescentes/d30000.txt
+Shellsort1959 0.173970413208
+Shellsort1973 0.113283872604
+
+../base-de-dados/decrescentes/d50000.txt
+Shellsort1959 0.336900377274
+Shellsort1973 0.216907930374
+
+../base-de-dados/decrescentes/d75000.txt
+Shellsort1959 0.594754362106
+Shellsort1973 0.340828895569
+
+../base-de-dados/decrescentes/d100000.txt
+Shellsort1959 0.772924184799
+Shellsort1973 0.475722408295
+
+../base-de-dados/decrescentes/d200000.txt
+Shellsort1959 1.61702337265
+Shellsort1973 1.03341040611
+
+../base-de-dados/decrescentes/d500000.txt
+Shellsort1959 4.16389102936
+Shellsort1973 2.63155817986
+
+../base-de-dados/decrescentes/d750000.txt
+Shellsort1959 6.42342185974
+Shellsort1973 3.95300602913
+
+../base-de-dados/decrescentes/d1000000.txt
+Shellsort1959 8.46990404129
+Shellsort1973 5.46713795662
+
+../base-de-dados/decrescentes/d1250000.txt
+Shellsort1959 11.3208129883
+Shellsort1973 8.34745640755
+
+../base-de-dados/decrescentes/d1500000.txt
+Shellsort1959 14.707670784
+Shellsort1973 9.04081983566
+
+../base-de-dados/decrescentes/d2000000.txt
+Shellsort1959 19.3048875809
+Shellsort1973 12.0807921886
+
+../base-de-dados/ordenados/o100.txt
+Shellsort1959 9.97543334961e-05
+Shellsort1973 6.3419342041e-05
+
+../base-de-dados/ordenados/o200.txt
+Shellsort1959 0.000222873687744
+Shellsort1973 0.000137329101562
+
+../base-de-dados/ordenados/o500.txt
+Shellsort1959 0.000547456741333
+Shellsort1973 0.000332641601563
+
+../base-de-dados/ordenados/o1000.txt
+Shellsort1959 0.00114197731018
+Shellsort1973 0.000619220733643
+
+../base-de-dados/ordenados/o2000.txt
+Shellsort1959 0.00229368209839
+Shellsort1973 0.00184893608093
+
+../base-de-dados/ordenados/o5000.txt
+Shellsort1959 0.0161807537079
+Shellsort1973 0.00814337730408
+
+../base-de-dados/ordenados/o7500.txt
+Shellsort1959 0.0210135936737
+Shellsort1973 0.0152672290802
+
+../base-de-dados/ordenados/o10000.txt
+Shellsort1959 0.0500010490417
+Shellsort1973 0.0313548088074
+
+../base-de-dados/ordenados/o15000.txt
+Shellsort1959 0.0661758422852
+Shellsort1973 0.0283854007721
+
+../base-de-dados/ordenados/o30000.txt
+Shellsort1959 0.130580234528
+Shellsort1973 0.0819417476654
+
+../base-de-dados/ordenados/o50000.txt
+Shellsort1959 0.261791419983
+Shellsort1973 0.161256504059
+
+../base-de-dados/ordenados/o75000.txt
+Shellsort1959 0.454387807846
+Shellsort1973 0.266035699844
+
+../base-de-dados/ordenados/o100000.txt
+Shellsort1959 0.624754619598
+Shellsort1973 0.386566352844
+
+../base-de-dados/ordenados/o200000.txt
+Shellsort1959 1.34373927116
+Shellsort1973 0.869670438766
+
+../base-de-dados/ordenados/o500000.txt
+Shellsort1959 3.67741799355
+Shellsort1973 2.303962183
+
+../base-de-dados/ordenados/o750000.txt
+Shellsort1959 6.05017409325
+Shellsort1973 3.44883904457
+
+../base-de-dados/ordenados/o1000000.txt
+Shellsort1959 7.62703680992
+Shellsort1973 4.70926241875
+
+../base-de-dados/ordenados/o1250000.txt
+Shellsort1959 9.93928132057
+Shellsort1973 6.11835851669
+
+../base-de-dados/ordenados/o1500000.txt
+Shellsort1959 11.9648528099
+Shellsort1973 7.44004235268
+
+../base-de-dados/ordenados/o2000000.txt
+Shellsort1959 16.0533083916
+Shellsort1973 9.9540245533
+
+../base-de-dados/parcialmente-ordenados/po100.txt
+Shellsort1959 0.00019907951355
+Shellsort1973 0.000168180465698
+
+../base-de-dados/parcialmente-ordenados/po200.txt
+Shellsort1959 0.000377655029297
+Shellsort1973 0.000288057327271
+
+../base-de-dados/parcialmente-ordenados/po500.txt
+Shellsort1959 0.000856018066406
+Shellsort1973 0.000654077529907
+
+../base-de-dados/parcialmente-ordenados/po1000.txt
+Shellsort1959 0.0015278339386
+Shellsort1973 0.00121631622314
+
+../base-de-dados/parcialmente-ordenados/po2000.txt
+Shellsort1959 0.00331239700317
+Shellsort1973 0.00274043083191
+
+../base-de-dados/parcialmente-ordenados/po5000.txt
+Shellsort1959 0.0104518890381
+Shellsort1973 0.00794677734375
+
+../base-de-dados/parcialmente-ordenados/po7500.txt
+Shellsort1959 0.0175875663757
+Shellsort1973 0.0172620296478
+
+../base-de-dados/parcialmente-ordenados/po10000.txt
+Shellsort1959 0.0269165992737
+Shellsort1973 0.019534444809
+
+../base-de-dados/parcialmente-ordenados/po15000.txt
+Shellsort1959 0.0516410827637
+Shellsort1973 0.0342087745667
+
+../base-de-dados/parcialmente-ordenados/po30000.txt
+Shellsort1959 0.144382238388
+Shellsort1973 0.0940835952759
+
+../base-de-dados/parcialmente-ordenados/po50000.txt
+Shellsort1959 0.27376832962
+Shellsort1973 0.183630609512
+
+../base-de-dados/parcialmente-ordenados/po75000.txt
+Shellsort1959 0.451591587067
+Shellsort1973 0.271165370941
+
+../base-de-dados/parcialmente-ordenados/po100000.txt
+Shellsort1959 0.609996604919
+Shellsort1973 0.378318357468
+
+../base-de-dados/parcialmente-ordenados/po200000.txt
+Shellsort1959 1.31236715317
+Shellsort1973 0.814528226852
+
+../base-de-dados/parcialmente-ordenados/po500000.txt
+Shellsort1959 3.61563768387
+Shellsort1973 2.25162439346
+
+../base-de-dados/parcialmente-ordenados/po750000.txt
+Shellsort1959 5.66460018158
+Shellsort1973 3.63071146011
+
+../base-de-dados/parcialmente-ordenados/po1000000.txt
+Shellsort1959 7.57621459961
+Shellsort1973 4.82878398895
+
+../base-de-dados/parcialmente-ordenados/po1250000.txt
+Shellsort1959 9.98816804886
+Shellsort1973 6.0761156559
+
+../base-de-dados/parcialmente-ordenados/po1500000.txt
+Shellsort1959 11.9874189377
+Shellsort1973 7.32559113503

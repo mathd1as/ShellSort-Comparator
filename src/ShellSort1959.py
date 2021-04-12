@@ -24,9 +24,10 @@ class ShellSort1959:
                     self.collection[j] = c
             k = k + 1
             h = n // pow(2, k)
-            
+
         # Pega o tempo apos a execução do algoritmo 
         end = time.time()
         # Calcula o tempo de execução
         executionTime = end - start
+        
         return executionTime

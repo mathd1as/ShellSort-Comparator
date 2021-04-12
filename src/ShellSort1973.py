@@ -21,13 +21,13 @@ class ShellSort1973:
                 j = i
                 while j >= h and c < self.collection[j - h]:
                     self.collection[j] = self.collection[j - h]
-                    j = j - h
-                        
+                    j = j - h  
                     self.collection[j] = c
             h = h // 3
-            
+
         # Pega o tempo apos a execução do algoritmo
         end = time.time()
         # Calcula o tempo de execução
-        executionTime = (end - start)
+        executionTime = end - start
+        
         return executionTime

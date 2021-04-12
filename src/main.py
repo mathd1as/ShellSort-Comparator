@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Arquivo principal
 from Dados import Dados
 from ShellSort1973 import ShellSort1973
@@ -94,7 +95,7 @@ caminhoDosArquivos = [
 
 arquivo = open("../testes/media-dos-tempos-de-execucao.txt", "a")
 
-for i in range(79):
+for i in range(80):
     arquivo.write("\n")
     arquivo.write(caminhoDosArquivos[i])
     arquivo.write("\n")
@@ -180,6 +181,8 @@ for i in range(79):
     media = (tempoExecucao1 + tempoExecucao2 + tempoExecucao3 + tempoExecucao4 + tempoExecucao5) / 5
     arquivo.write("Shellsort1973 " + str(media))
     arquivo.write("\n")
+
+arquivo.close()
 
 # GRAFICOS
 
