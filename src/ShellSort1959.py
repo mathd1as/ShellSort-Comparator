@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 import math
 import time
+
+
 class ShellSort1959:
-    
+
     def __init__(self, collection):
-       self.collection = collection
+        self.collection = collection
 
     def executar(self):
         n = len(self.collection)
