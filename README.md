@@ -1,5 +1,5 @@
 # shellsort-comparator
-comparação do tempo cronológico de execução de duas versões do método de ordenação Shellsort.
+Comparação do tempo cronológico de execução de duas versões do método de ordenação Shellsort.
 
 ## Run
 ```bash 
